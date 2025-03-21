@@ -28,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
 
     private List<Country> getListData() {
         List<Country> list = new ArrayList<>();
-        list.add(new Country("Vietnam", "vn_flag", 98000000));
         list.add(new Country("United States", "usa_flag", 340000000));
-        list.add(new Country("Russia", "ru_flag", 142000000));
+        list.add(new Country("Greece", "greece_flag", 10000000));
+        list.add(new Country("Japan", "japan_flag", 124000000));
+        list.add(new Country("Spain", "spain_flag", 48000000));
         return list;
     }
 }
